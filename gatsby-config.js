@@ -4,6 +4,7 @@ module.exports = {
     description: `Russ Young Professional Painting in Lexington, KY can help with any painting, remodeling, or project management you need. Contact us today for a free quote`,
   },
   plugins: [
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
